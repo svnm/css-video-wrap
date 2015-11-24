@@ -1,6 +1,6 @@
-# pure-css
+# css-video-wrap
 
-[![npm version](https://badge.fury.io/js/pure-css.svg)](https://badge.fury.io/js/pure-css)
+[![npm version](https://badge.fury.io/js/css-video-wrap.svg)](https://badge.fury.io/js/css-video-wrap)
 
 A [css module](https://github.com/css-modules/css-modules) compatible css module wrapper for embedded video youtube, vimeo, etc...
 
@@ -21,7 +21,7 @@ Then use it for styling your elements.
 ```jsx
 	return (
         <div styleName="videoWrapper">
-        	<iframe width="560" height="315" src="https://www.youtube.com/embed/HBHJ0XGZfLs" frameborder="0" allowfullscreen></iframe>
+        	{/* video embed... */}
         </div>
     );
 ```
@@ -29,6 +29,10 @@ Then use it for styling your elements.
 ## Example
 
 Check out the full working example [here](https://github.com/StevenIseki/css-video-wrap/tree/master/example)
+
+**Run it**
+
+`npm install; npm start`
 
 ```jsx
 import React from 'react';
@@ -45,7 +49,7 @@ function Video( props) {
 
     return (
         <div styleName="videoWrapper">
-        	<iframe width="560" height="315" src="https://www.youtube.com/embed/HBHJ0XGZfLs" frameborder="0" allowfullscreen></iframe>
+        	<iframe width="560" height="315" src="https://www.youtube.com/embed/HBHJ0XGZfLs" frameBorder="0" allowFullScreen></iframe>
         </div>
     );
 }

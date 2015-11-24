@@ -4,7 +4,7 @@ import CSSModules from 'react-css-modules'
 import Video from '../components/Video/Video'
 import Snippet from '../components/Snippet/Snippet'
 import js from '!!raw!../components/Video/Video'
-import css from '!!raw!../components/Video/Video.css'
+import css from '!!raw!../../../lib/wrapper.css'
 
 /* Video Demo */
 function VideoDemo( props) {
@@ -13,7 +13,7 @@ function VideoDemo( props) {
 
     const files = [
       { name: './Video.js', source: js },
-      { name: './Video.css', source: css }
+      { name: './wrapper.css', source: css }
     ];
 
     return (
