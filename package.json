@@ -1,6 +1,6 @@
 {
   "name": "css-video-wrap",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "a css module wrapper for embedded video youtube, vimeo, etc...",
   "main": "index.js",
   "repository": {
